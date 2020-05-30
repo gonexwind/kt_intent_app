@@ -3,31 +3,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
     android:orientation="vertical"
     android:padding="16dp"
-    >
+    tools:context=".MainActivity">
 
     <Button
         android:id="@+id/btn_move_activity"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/move_activity"
-        android:layout_marginBottom="16dp"/>
+        android:layout_marginBottom="16dp"
+        android:text="@string/move_activity" />
 
     <Button
         android:id="@+id/btn_move_activity_data"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/move_with_data"
-        android:layout_marginBottom="16dp"/>
+        android:layout_marginBottom="16dp"
+        android:text="@string/move_with_data" />
 
     <Button
         android:id="@+id/btn_move_activity_object"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/move_with_object"
-        android:layout_marginBottom="16dp"/>
+        android:layout_marginBottom="16dp"
+        android:text="@string/move_with_object" />
 
+    <Button
+        android:id="@+id/btn_dial_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/dial_number" />
 
 </LinearLayout>
